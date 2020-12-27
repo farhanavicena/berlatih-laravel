@@ -10,7 +10,12 @@ class AuthController extends Controller
    	return view('register');
    }
 
-   public function sambut(){
-   	return view('sambutan');
+   public function form(Request $request)
+   {
+	   $first = $request -> first_name;
+	   $last = $request -> last_name;
+
+
+	   	return view('sambutan', compact('first','last'));
    }
 }

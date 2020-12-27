@@ -26,7 +26,12 @@ Route::get('/home', 'HomeController@home');
 
 Route::get('/register', 'AuthController@regist');
 
-Route::get('/welcome', 'AuthController@sambut');
+Route::post('/welcome', 'AuthController@form');
+
+
+
+
+
 
 Route::get('/master', function(){
 	return view('adminlte.master');

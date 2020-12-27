@@ -10,7 +10,7 @@
 	<a href="form.html">Form</a>
 	<a href="welcome.html">Welcome</a>
 </div>
-<h1>SELAMAT DATANG!</h1>
+<h1>SELAMAT DATANG! {{$first}} {{$last}}</h1>
 <br>
 <h3>Terima kasih telah bergabung di SanberBook. Social Media kita bersama!</h3>
 

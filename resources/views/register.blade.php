@@ -18,18 +18,18 @@
 <h2>Sign Up Form</h2>
 
 <form action="/welcome" method="POST">
-
+	@csrf
 
 	<fieldset>
 		<legend> User Name </legend>
 	<div>
 		<label for="first_name">First name:</label>
 		<br>
-		<input type="text" id="first_name">
+		<input type="text" name="first_name">
 		<br><br>
 		<label for="last_name">Last name:</label>
 		<br>
-		<input type="text" id="last_name">
+		<input type="text" name="last_name">
 		<br>
 	</div>
 	</fieldset><br><br>
